@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="css\bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--! FONTS -->
+    
+</head>
+
+<body>
+   <div class="container my-5 text-center">
+    <div class="group m-auto w-75 p-5">
+        <h1>Smart Login System</h1>
+
+        <input id="signinEmail" class="form-input my-3" placeholder="Enter your email" type="text">
+        <input id="signinPassword" class="form-input my-3" placeholder="Enter your password" type="password">
+        <p id="incorrect"></p>
+
+        <button onclick="login()" id="welcome"  class="btn btn-outline-info w-100 my-3">Login</button>
+        <p class="accountup text-white">Don’t have an account? <a class="text-white" href="SignUp.html">Sign Up</a></p>
+    </div>
+   </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
